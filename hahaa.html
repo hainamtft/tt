@@ -7,12 +7,12 @@
     
 </head>
 <body>
-    <style>
-        body {
+<style>
+ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(./1476a67fb00861b315411e6ed198bfa9.jpg);
+    background-image: url(https://www.ixpaper.com/wp-content/uploads/2023/06/yae-miko-wallpaper-ixpaper.jpg);
     background-size: cover;
     width: 100%;
     height: 300px;
@@ -79,6 +79,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url();
 }
 
 #login-section, #chat-section {
@@ -117,7 +118,7 @@ button:hover {
     </style>
 
  <div class="App" id="app">
-    <h1>NHẬP VÔ ĐI :>>>>></h1>
+    <h1>nhập tên và tên người yêu</h1>
     <div id="login-section" style="display: flex; justify-content: center; margin-top: 200px;">
         <input type="text" id="username" placeholder="Nhập tên của bạn">
         <input type="text" id="pass" placeholder="nhập tên người bạn thích "> 
@@ -126,9 +127,10 @@ button:hover {
     <div id="chat-section" style="display: none;">
         <h2 id="chat-title"></h2>
         <div id="chat-box">
-            <h1>I LOVE YOU </h1>
-            <p>NGỌC ANH</p>
-            <p>:>>>>>>>>>>>></p>
+            <h1>nhập chữ</h1>
+            <p>nhập chứ</p>
+            <p>nhập chữ</p>
+            <img src="https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-1/435012165_403638262618145_5732304920485700618_n.jpg?stp=dst-jpg_p200x200&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=CwvrGvODdaMAb6K_BwH&_nc_ht=scontent.fsgn21-1.fna&oh=00_AfBBLffv7kRv3rCC71BSTOrbQjrhU_74eb7NoSHrLqXrDg&oe=663687F1" alt="">
             <h3>hainam</h3>
         </div>
 
@@ -139,15 +141,18 @@ button:hover {
     var username = document.getElementById("username").value;
     var pass = document.getElementById("pass").value;
     var tendung = "hainam";
-    if (username.trim() !== "" && pass === tendung) {
+    if (username.trim() !== "" && pass === tendung ) {
         document.getElementById("login-section").style.display = "none";
         document.getElementById("chat-section").style.display = "block";
-        document.getElementById("chat-title").innerText = "I LOVE " + username + ", hehehehe";
+        document.getElementById("chat-title").innerText = "I LOVE " + username + ",nhập vô ";
     }
+
     else{
         alert("không sai rồi 'hainam' mời đúng");
     }
 }   
+
+
 </script>
 </body>
 </html>  
